@@ -6,7 +6,7 @@
 }
 #main{
     font-family: 'Courier New', Courier, monospace;
-    width: 55vw;
+    width: 35vw;
     height: 90vh;
     position: absolute;
     top: 50%;
@@ -19,7 +19,7 @@
 
 #root{
     font-family: 'Courier New', Courier, monospace;
-    width: 35vw;
+    width: 26vw;
     height: 70vh;
     position: absolute;
     top: 50%;
@@ -42,7 +42,7 @@
     width: 40%;
     height: 10%;
     font-weight: 550;
-    font-size: 30px;
+    font-size: 26px;
     border:2px solid rgb(48, 208, 248);
     background-color: rgb(48, 208, 248);
     border-radius: 12px;
@@ -57,7 +57,7 @@
     width: 40%;
     font-weight: 550;
     height: 10%;
-    font-size: 30px;
+    font-size: 26px;
     border:2px solid rgb(48, 208, 248);
     background-color: rgb(48, 208, 248);
     border-radius: 12px;
@@ -89,4 +89,96 @@
     background:none;
     top: 50%;
     left: 68%;
+}
+
+
+@media(max-width:668px)
+{
+    #main{
+        font-family: 'Courier New', Courier, monospace;
+        width: 90vw;
+        height: 80vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgb(94, 219, 241);
+        border: 1px solid black;
+        border-radius: 18px;
+    }
+    #root{
+        font-family: 'Courier New', Courier, monospace;
+        width: 70vw;
+        height: 70vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgb(249, 249, 253);
+        border: 1px solid rgb(94, 219, 241);
+        border-radius: 18px;
+    
+    }
+    
+
+#child2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#prev{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    width: 40%;
+    height: 10%;
+    font-weight: 550;
+    font-size: 16px;
+    border:2px solid rgb(48, 208, 248);
+    background-color: rgb(48, 208, 248);
+    border-radius: 12px;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#next{
+    position: absolute;
+    top: 80%;
+    right: 5%;
+    width: 40%;
+    font-weight: 550;
+    height: 10%;
+    font-size: 16px;
+    border:2px solid rgb(48, 208, 248);
+    background-color: rgb(48, 208, 248);
+    border-radius: 12px;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#icon{
+    font-size: 40px;
+    background:none;   
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+#text{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 550;  
+    background:none;
+    top: 20%;
+    left: 5%;
+}
+
+#author{
+    position: absolute;
+    font-size: 5vmin;
+    font-weight: 550;  
+    background:none;
+    top: 50%;
+    left: 68%;
+}
 }
